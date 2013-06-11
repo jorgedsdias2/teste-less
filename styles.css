@@ -11,6 +11,14 @@
 	background: -webkit-gradient(linear,left bottom,left top,color-stop(0.1, rgb(176,112,3)),color-stop(0.55, rgb(212,146,29)),color-stop(0.78, rgb(255,176,56)));
 }
 
+.meu-gradiente-2(@cor1, @cor2, @cor3, @por1, @por2, @por3) {
+	background: linear-gradient(bottom, @cor1 @por1, @cor2 @por2, @cor3 @por3);
+	background: -o-linear-gradient(bottom, @cor1 @por1, @cor2 @por2, @cor3 @por3);
+	background: -moz-linear-gradient(bottom, @cor1 @por1, @cor2 @por2, @cor3 @por3);
+	background: -webkit-linear-gradient(bottom, @cor1 @por1, @cor2 @por2, @cor3 @por3);
+	background: -ms-linear-gradient(bottom, @cor1 @por1, @cor2 @por2, @cor3 @por3);
+}
+
 .meu-gradiente-hover {
 	background: linear-gradient(bottom, rgb(255,176,56) 10%, rgb(212,146,29) 55%, rgb(176,112,3) 78%);
 	background: -o-linear-gradient(bottom, rgb(255,176,56) 10%, rgb(212,146,29) 55%, rgb(176,112,3) 78%);
@@ -34,7 +42,7 @@
 	text-align: center;
 	font-weight: bold;
 	.radius-padrao;
-	.meu-gradiente;
+	.meu-gradiente-2(rgb(176,112,3), rgb(212,146,29), rgb(255,176,56), 10%, 55%, 78%);
 }
 
 .botao:hover {
