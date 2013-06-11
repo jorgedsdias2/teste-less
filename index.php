@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title></title>
-	<link rel="stylesheet/less" type="text/css" href="styles.css" />
+	<link rel="stylesheet/less" type="text/css" href="styles.less" />
 	<script src="less.min.js" type="text/javascript"></script>
 </head>
 <body>

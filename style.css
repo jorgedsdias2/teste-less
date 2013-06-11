@@ -1,0 +1,39 @@
+/* Variables */
+/* Mixins */
+.meu-gradiente {
+  background: linear-gradient(bottom, #b07003 10%, #d4921d 55%, #ffb038 78%);
+  background: -o-linear-gradient(bottom, #b07003 10%, #d4921d 55%, #ffb038 78%);
+  background: -moz-linear-gradient(bottom, #b07003 10%, #d4921d 55%, #ffb038 78%);
+  background: -webkit-linear-gradient(bottom, #b07003 10%, #d4921d 55%, #ffb038 78%);
+  background: -ms-linear-gradient(bottom, #b07003 10%, #d4921d 55%, #ffb038 78%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0.1, #b07003), color-stop(0.55, #d4921d), color-stop(0.78, #ffb038));
+}
+.botao {
+  background: #FF0000;
+  width: 250px;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: linear-gradient(bottom, "#b07003 10%", "#d4921d 55%", "#ffb038 78%");
+  background: -o-linear-gradient(bottom, "#b07003 10%", "#d4921d 55%", "#ffb038 78%");
+  background: -moz-linear-gradient(bottom, "#b07003 10%", "#d4921d 55%", "#ffb038 78%");
+  background: -webkit-linear-gradient(bottom, "#b07003 10%", "#d4921d 55%", "#ffb038 78%");
+  background: -ms-linear-gradient(bottom, "#b07003 10%", "#d4921d 55%", "#ffb038 78%");
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0.1, #b07003), color-stop(0.55, #d4921d), color-stop(0.78, #ffb038));
+}
+.botao:hover {
+  color: #FFF;
+  background: linear-gradient(bottom, "#ffb038 10%", "#d4921d 55%", "#b07003 78%");
+  background: -o-linear-gradient(bottom, "#ffb038 10%", "#d4921d 55%", "#b07003 78%");
+  background: -moz-linear-gradient(bottom, "#ffb038 10%", "#d4921d 55%", "#b07003 78%");
+  background: -webkit-linear-gradient(bottom, "#ffb038 10%", "#d4921d 55%", "#b07003 78%");
+  background: -ms-linear-gradient(bottom, "#ffb038 10%", "#d4921d 55%", "#b07003 78%");
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0.1, #ffb038), color-stop(0.55, #d4921d), color-stop(0.78, #b07003));
+}
+body {
+  background: #eaeaea;
+}
